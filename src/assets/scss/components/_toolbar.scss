@@ -1,0 +1,76 @@
+/* ==========================================================================
+Toolbar
+========================================================================== */
+.toolbar {
+  position: relative;
+  z-index: 10;
+  background-color: #333333;
+  height: 70px;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  // flex-wrap: wrap;
+
+  // @include media-breakpoint-up(sm) {
+  //   flex-wrap: nowrap;
+  //   height: 96px;
+  //   //padding-bottom: 0 !important;
+  // }
+  //
+  // padding-bottom: 0 !important;
+}
+
+/* ==========================================================================
+Toolbar profile btn
+========================================================================== */
+// .toolbar__edit-btn {
+//   @extend .btn;
+//   @extend .btn-outline-white;
+//   @extend .btn-sm;
+//
+//   align-self: center;
+//
+//   &.active {
+//     @extend .text-theme-primary;
+//   }
+//
+//   @include media-breakpoint-down(md) {
+//     max-width: 75px;
+//   }
+//
+//   @include media-breakpoint-down(xs) {
+//     @include font-size(12px);
+//
+//     max-width: none;
+//   }
+// }
+
+// @include media-breakpoint-down(sm) {
+//   .form-label {
+//     @include font-size(10px);
+//   }
+//
+//   .form-control {
+//     @include font-size(12px);
+//   }
+// }
+//
+// @include media-breakpoint-down(xs) {
+//   .form-label {
+//     display: flex;
+//     text-align: center;
+//   }
+//
+//   .form-control {
+//     display: flex;
+//     height: auto !important;
+//     min-height: auto !important;
+//   }
+// }
+//
+// @include media-breakpoint-up(sm) {
+//   .form-control {
+//     min-width: 100px;
+//   }
+// }
+//}

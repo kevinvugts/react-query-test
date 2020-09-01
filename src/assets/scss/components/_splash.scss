@@ -1,0 +1,58 @@
+.splash {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  //background-image: url('../public/assets/splash-bg@2x.png'); // ONLY WORKS FOR LIVE THIS WAY
+  background-image: url('../../../../public/assets/splash-bg@2x.png');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.splash .loading-dot {
+  font-size: 100px;
+  margin-top: -80px;
+  position: relative;
+  animation: ease-in-out infinite alternate;
+  animation-name: run;
+  animation-duration: 1.2s;
+}
+
+.splash .btn {
+  border-radius: 25px;
+  color: white;
+  height: 53px;
+  width: 242px;
+  text-transform: uppercase;
+}
+
+.splash hr {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: none;
+  height: 1px;
+  color: white;
+  background-color: white;
+}
+
+@keyframes run {
+  0% {
+    left: -50px;
+    color: #eee;
+  }
+
+  50% {
+    color: #666;
+  }
+
+  100% {
+    left: 50px;
+    color: #eee;
+  }
+}

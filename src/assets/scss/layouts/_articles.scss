@@ -1,0 +1,26 @@
+.filter-container {
+  margin-bottom: 10px; // kind of hacky cause the filter buttons have an unexplained padding caused by overflow-scroll
+
+  .btn {
+    border-radius: 25px;
+    height: 53px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: background-color 0.5s ease;
+  }
+
+  .btn.active {
+    border-color: transparent !important;
+    color: black !important;
+    background-color: white !important;
+  }
+
+  .filter-container button.btn:hover,
+  button.btn:focus {
+    border-color: transparent !important;
+    background-color: white !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}

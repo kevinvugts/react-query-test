@@ -1,0 +1,83 @@
+/* ==========================================================================
+Login form
+========================================================================== */
+.login-form {
+  font-family: $font-family-1;
+
+  &__heading {
+    @extend .text-center;
+    @extend .text-uppercase;
+    @include font-size(38);
+    font-family: $font-family-2;
+  }
+
+  .form-group {
+    margin-bottom: 35px;
+  }
+
+  input {
+    border-radius: 0;
+    height: 50px;
+  }
+
+  .container__button {
+    @extend .mb-3;
+    display: flex;
+    justify-content: center;
+  }
+
+  #forgotPassword {
+    @include font-size(16);
+    text-decoration: underline;
+  }
+}
+
+/* ==========================================================================
+Password Reset form
+========================================================================== */
+.password-reset-form {
+  font-family: $font-family-1;
+
+  &__heading {
+    @extend .text-center;
+    @include font-size(32);
+    font-family: $font-family-2;
+  }
+
+  .form-group {
+    margin-bottom: 35px;
+  }
+
+  input {
+    border-radius: 0;
+    height: 50px;
+    border-color: black;
+  }
+
+  .container__button {
+    @extend .mb-3;
+    display: flex;
+    justify-content: center;
+
+    .btn {
+      @include font-size(18);
+      border-radius: 25px;
+      color: white;
+      height: 53px;
+      width: 100%;
+      text-transform: uppercase;
+    }
+  }
+}
+
+// REDUNDANT
+#password-reset-modal {
+  .btn {
+    @include font-size(18);
+    border-radius: 25px;
+    color: white;
+    height: 53px;
+    width: 100%;
+    text-transform: uppercase;
+  }
+}

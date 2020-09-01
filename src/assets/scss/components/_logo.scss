@@ -1,0 +1,21 @@
+.logo {
+  width: 55px;
+}
+
+.logo.appended {
+  animation: animateLogo 1s ease both;
+  position: absolute;
+}
+
+@keyframes animateLogo {
+  0% {
+    top: 40vh;
+    left: 40vw;
+  }
+  100% {
+    // height: 25px;
+    // width: 25px;
+    top: 20px;
+    left: 20px;
+  }
+}
