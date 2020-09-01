@@ -6,10 +6,6 @@
   "author": "Kevin Vugts <kevin.vugts@enorm.com>",
   "license": "MIT",
   "private": true,
-  "engines": {
-    "node": ">=12",
-    "npm": ">=6"
-  },
   "scripts": {
     "clean-dist": "rm -f -r -d dist",
     "test": "jest --config ./jest.config.json",
